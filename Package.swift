@@ -18,7 +18,7 @@ let package = Package(
 		// Dependencies declare other packages that this package depends on.
 		// .package(url: /* package url */, from: "1.0.0"),
 //		.package(name: "SwiftSDAIcore", path: "/Users/home/Dropbox/STEP/STEPcode/SwiftSDAIcore/"),
-		.package(url: "https://github.com/tsun7170/SwiftSDAIcore", from: "1.0.0"),
+		.package(url: "https://github.com/tsun7170/SwiftSDAIcore", from: "1.1.0"),
 			
 	],
 	targets: [
