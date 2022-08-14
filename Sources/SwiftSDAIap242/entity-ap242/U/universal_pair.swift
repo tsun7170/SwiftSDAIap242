@@ -299,7 +299,7 @@ extension AP242_MANAGED_MODEL_BASED_3D_ENGINEERING_MIM_LF {
     internal func _skew_angle__getter(SELF: eUNIVERSAL_PAIR) -> tPLANE_ANGLE_MEASURE?  {
 
       let _TEMP1 = SDAI.NVL(V: SELF.INPUT_SKEW_ANGLE, 
-                            SUBSTITUTE: 0)
+                            SUBSTITUTE: SDAI.REAL(0))
       return _TEMP1
     }
 
