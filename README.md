@@ -9,8 +9,7 @@ To use this package, SwiftSDAIcore runtime environment package is required.
 
 Some sample programs are provided in separate repositories (see below).
 
-AP242 translation is performed using the updated EXPRESS AP242 schema definition provided as a diff patch file contained in this package (instead of the one provided under STEPswiftcode package listed below).
-version 1.1.0 translation contains numerous function definitions missing from the original AP242 schema definition.
+AP242 translation is performed using the updated EXPRESS AP242 schema definition provided in this package (ap242ed2_mim_lf_v1.101.TY.exp) which is modified from the official schema definition. The modification includes various EXPRESS error corrections and addition of numerous function definitions missing from the original AP242 schema definition.
 
 ## swift STEP code suite
 * [SwiftSDAIcore](https://github.com/tsun7170/SwiftSDAIcore)
@@ -22,5 +21,5 @@ version 1.1.0 translation contains numerous function definitions missing from th
 
 
 ## Development environment
-* Xcode version 12.4
-* macOS Catalina version 10.15.7
+* Xcode version 26.0.1
+* macOS Tahoe 26.0.1
