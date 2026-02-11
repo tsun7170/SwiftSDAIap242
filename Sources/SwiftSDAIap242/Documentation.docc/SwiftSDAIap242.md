@@ -1,10 +1,10 @@
 # ``SwiftSDAIap242``
 
-A Swift library for parsing, manipulating, and generating STEP AP242 data (ISO 10303-21) in Apple ecosystem applications.
+A Swift library for parsing, manipulating, and generating STEP AP242 Edition 2 data (ISO 10303-242:2020) in Apple ecosystem applications.
 
 ## Overview
 
-SwiftSDAIap242 provides a robust implementation of the STEP AP242 standard (2nd Edition), enabling developers to work with complex 3D CAD and product data models in native Swift. This package is suitable for CAD/CAM/PLM apps, engineering data exchange, visualization, and more.
+SwiftSDAIap242 provides a robust implementation of the STEP AP242 standard (Edition 2), enabling developers to work with complex 3D CAD and product data models in native Swift. This package is suitable for CAD/CAM/PLM apps, engineering data exchange, visualization, and more.
 
 - Supports reading and writing STEP Part 21 files
 - In-memory data model mapped to AP242 schema
