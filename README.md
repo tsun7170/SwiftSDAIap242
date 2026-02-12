@@ -9,7 +9,10 @@ To use this package, SwiftSDAIcore runtime environment package is required.
 
 Some sample programs are provided in separate repositories (see below).
 
-AP242 translation is performed using the updated EXPRESS AP242 schema definition provided in this package (ap242ed2_mim_lf_v1.101.TY.exp) which is modified from the official schema definition. The modification includes various EXPRESS error corrections and addition of numerous function definitions missing from the original AP242 schema definition.
+AP242 translation is performed using the updated EXPRESS AP242 schema definition provided in this package (ap242ed2_mim_lf_v1.101.TY.exp) which is a modified from the official schema definition. The modification includes various EXPRESS error corrections and addition of numerous function definitions missing from the original AP242 schema definition.
+
+**Reference**  
+- [original schema definition file](https://www.mbx-if.org/home/mbx/resources/express-schemas/ "MBx Interoperability Forum")
 
 ## swift STEP code suite
 * [SwiftSDAIcore](https://github.com/tsun7170/SwiftSDAIcore)
@@ -21,5 +24,5 @@ AP242 translation is performed using the updated EXPRESS AP242 schema definition
 
 
 ## Development environment
-* Xcode version 26.0.1
-* macOS Tahoe 26.0.1
+* Xcode version 26.2
+* macOS Tahoe 26.2
