@@ -45147,7 +45147,7 @@ END_LOCAL;
         j := v1;
         k := v2;
         n := 1;
-        REPEAT i := 1 TO ABS(k);
+        REPEAT i_(*TY2026/03/05*) := 1 TO ABS(k);
           n := n * j;
         END_REPEAT;
         IF k < 0
@@ -45352,7 +45352,7 @@ END_LOCAL;
         r := v1;
         k := v2;
         t := 1.0;
-        REPEAT i := 1 TO ABS(k);
+        REPEAT i_(*TY2026/03/05*) := 1 TO ABS(k);
           t := t * r;
         END_REPEAT;
         IF k < 0
@@ -45627,7 +45627,7 @@ END_LOCAL;
         k := v2;
         r := 1.0;
         s := 0.0;
-        REPEAT i := 1 TO ABS(k);
+        REPEAT i_(*TY2026/03/05*) := 1 TO ABS(k);
           r := p * r - q * s;
           s := p * s + q * r;
         END_REPEAT;
